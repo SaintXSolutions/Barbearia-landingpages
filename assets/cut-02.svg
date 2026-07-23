@@ -1,0 +1,30 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="100" y1="90" x2="1090" y2="830" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090909"/>
+      <stop offset="1" stop-color="#1A1411"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="390" y1="210" x2="765" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0C57D"/>
+      <stop offset="1" stop-color="#A46B32"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="360" y1="190" x2="720" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7A27A"/>
+      <stop offset="1" stop-color="#8F6046"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="56" fill="url(#bg)"/>
+  <circle cx="990" cy="240" r="200" fill="#E2B96E" fill-opacity="0.10"/>
+  <circle cx="230" cy="640" r="240" fill="#FFFFFF" fill-opacity="0.04"/>
+  <rect x="112" y="728" width="976" height="30" rx="15" fill="#000" fill-opacity="0.4"/>
+  <path d="M360 255C360 189 414 135 480 135H689C755 135 809 189 809 255V305C845 334 869 377 869 425C869 500 817 563 748 578C741 633 704 681 652 705C628 717 600 724 570 724H570C540 724 512 717 488 705C436 681 399 633 392 578C323 563 271 500 271 425C271 377 295 334 331 305V255Z" fill="url(#gold)"/>
+  <path d="M437 313C437 259 481 215 535 215H628C682 215 726 259 726 313V403C726 475 668 534 596 534H569C496 534 437 475 437 403V313Z" fill="url(#skin)"/>
+  <path d="M405 275C427 225 475 190 531 190H621C680 190 730 228 749 281C726 272 699 264 671 262C626 259 586 267 550 281C515 295 479 319 447 352L405 275Z" fill="#151010"/>
+  <path d="M458 290C471 249 506 220 548 220H601C648 220 689 252 701 298C683 293 664 289 645 287C615 283 585 286 556 294C524 302 491 314 458 290Z" fill="#2A1A14"/>
+  <path d="M454 434C480 410 515 396 568 396C621 396 656 410 682 434C659 449 635 459 608 467C591 472 578 475 568 475C558 475 545 472 528 467C501 459 477 449 454 434Z" fill="#5D3523"/>
+  <path d="M456 555C484 597 523 623 569 623H570C616 623 655 597 683 555C664 577 639 593 611 601C591 607 579 609 570 609C561 609 549 607 529 601C501 593 476 577 456 555Z" fill="#432719"/>
+  <circle cx="505" cy="379" r="13" fill="#151010"/>
+  <circle cx="634" cy="379" r="13" fill="#151010"/>
+  <path d="M510 410C534 426 603 426 628 410" stroke="#151010" stroke-width="14" stroke-linecap="round"/>
+  <path d="M745 545C787 565 817 597 837 641" stroke="#E2B96E" stroke-opacity="0.28" stroke-width="20" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,73 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="102" y1="68" x2="410" y2="444" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F0F11"/>
+      <stop offset="1" stop-color="#050506"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="140" y1="110" x2="372" y2="402" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4F0EA"/>
+      <stop offset="1" stop-color="#9E9088"/>
+    </linearGradient>
+    <linearGradient id="red" x1="174" y1="128" x2="338" y2="384" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF5A54"/>
+      <stop offset="1" stop-color="#8C1412"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="208" y1="130" x2="304" y2="382" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2B58D6"/>
+      <stop offset="1" stop-color="#19368A"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="188" y1="164" x2="324" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8F4EE"/>
+      <stop offset="1" stop-color="#A99990"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="18" y="18" width="476" height="476" rx="120" fill="url(#bg)" stroke="url(#red)" stroke-width="18"/>
+  <circle cx="256" cy="256" r="182" fill="#080809" stroke="url(#ring)" stroke-width="10"/>
+  <circle cx="256" cy="256" r="150" fill="#111114" stroke="#F5F0EA" stroke-opacity="0.12" stroke-width="4"/>
+
+  <path d="M174 156C194 138 221 126 256 126C291 126 318 138 338 156" stroke="url(#ring)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M174 356C194 374 221 386 256 386C291 386 318 374 338 356" stroke="url(#ring)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M128 256C128 186 186 128 256 128C326 128 384 186 384 256C384 326 326 384 256 384C186 384 128 326 128 256Z" stroke="url(#ring)" stroke-opacity="0.24" stroke-width="8"/>
+
+  <g transform="translate(0 0)">
+    <path d="M215 150H297V364H215V150Z" fill="#EFEAE5" rx="18"/>
+    <path d="M215 150H297V364H215V150Z" fill="url(#blue)" fill-opacity="0.95" opacity="0.95"/>
+    <path d="M215 150H297V364H215V150Z" fill="none" stroke="#1B1B1E" stroke-width="8"/>
+    <path d="M215 150H297V180H215V150Z" fill="#1F3E9A"/>
+    <path d="M215 334H297V364H215V334Z" fill="#1F3E9A"/>
+
+    <path d="M224 150L256 150V364L224 364V150Z" fill="#F8F4EE" opacity="0.96"/>
+    <path d="M224 150L256 150V364L224 364V150Z" fill="none" stroke="#1B1B1E" stroke-width="4" opacity="0.45"/>
+
+    <path d="M248 150L297 199V243L248 194V150Z" fill="url(#red)"/>
+    <path d="M256 195L297 236V278L256 237V195Z" fill="#F8F4EE"/>
+    <path d="M248 237L297 286V329L248 280V237Z" fill="url(#red)"/>
+    <path d="M256 281L297 322V364H256V281Z" fill="#F8F4EE"/>
+
+    <path d="M215 154L263 202" stroke="#B2A39A" stroke-width="8" opacity="0.35"/>
+    <path d="M215 198L297 280" stroke="#B2A39A" stroke-width="8" opacity="0.28"/>
+    <path d="M215 242L297 324" stroke="#B2A39A" stroke-width="8" opacity="0.28"/>
+
+    <ellipse cx="256" cy="140" rx="56" ry="18" fill="url(#metal)"/>
+    <ellipse cx="256" cy="140" rx="42" ry="10" fill="#0E0E10"/>
+    <ellipse cx="256" cy="364" rx="58" ry="18" fill="url(#metal)"/>
+    <ellipse cx="256" cy="364" rx="42" ry="10" fill="#0E0E10"/>
+  </g>
+
+  <path d="M162 236L108 214" stroke="url(#metal)" stroke-width="12" stroke-linecap="round"/>
+  <path d="M162 276L110 300" stroke="url(#metal)" stroke-width="12" stroke-linecap="round"/>
+  <path d="M350 236L404 214" stroke="url(#metal)" stroke-width="12" stroke-linecap="round"/>
+  <path d="M350 276L402 300" stroke="url(#metal)" stroke-width="12" stroke-linecap="round"/>
+
+  <circle cx="256" cy="256" r="22" fill="#0D0D0F" stroke="url(#ring)" stroke-width="5"/>
+  <path d="M256 236V276" stroke="url(#ring)" stroke-width="7" stroke-linecap="round"/>
+  <path d="M236 256H276" stroke="url(#ring)" stroke-width="7" stroke-linecap="round"/>
+
+  <text x="256" y="110" text-anchor="middle" fill="#F7F2ED" font-size="30" font-family="Arial, sans-serif" font-weight="700" letter-spacing="3">
+    BARBEARIA
+  </text>
+  <text x="256" y="414" text-anchor="middle" fill="#F7F2ED" font-size="28" font-family="Arial, sans-serif" font-weight="700" letter-spacing="3">
+    PRIME
+  </text>
+</svg>
