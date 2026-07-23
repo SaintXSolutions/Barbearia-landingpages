@@ -394,6 +394,12 @@ a {
   gap: 18px;
 }
 
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
 .insta-tile {
   min-height: 240px;
   display: flex;
@@ -409,6 +415,48 @@ a {
 .insta-tile .button {
   margin-top: auto;
   align-self: flex-start;
+}
+
+.review-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.03)),
+    linear-gradient(135deg, rgba(229, 57, 53, 0.08), rgba(17, 211, 124, 0.04));
+  box-shadow: var(--shadow);
+  padding: 20px;
+}
+
+.review-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.review-top strong {
+  display: block;
+  font-family: "Arial Black", "Segoe UI Black", Impact, sans-serif;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.review-top span {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.review-stars {
+  color: #ffd56a;
+  letter-spacing: 0.08em;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.review-card p {
+  margin: 0;
+  color: var(--muted);
 }
 
 .footer {
@@ -445,7 +493,8 @@ a {
 
   .split,
   .service-grid,
-  .instagram-showcase {
+  .instagram-showcase,
+  .reviews-grid {
     grid-template-columns: 1fr;
   }
 
